@@ -1,3 +1,5 @@
+[![official JetBrains project](http://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
+
 # SBT IDEA plugin usage example
 
 These sources can be used to quickly add some functionality to Scala plugin or IntelliJ IDEA in general.
