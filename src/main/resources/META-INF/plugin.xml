@@ -2,7 +2,7 @@
     <id>org.jetbrains.sbt-idea-example</id>
     <name>SBT IDEA example</name>
     <version>1.0</version>
-    <vendor url="http://www.jetbrains.com">JetBrains</vendor>
+    <vendor url="https://www.jetbrains.com">JetBrains</vendor>
 
     <description>IntelliJ IDEA plugin example to </description>
 
