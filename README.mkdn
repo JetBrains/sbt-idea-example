@@ -1,4 +1,10 @@
-[![official JetBrains project](https://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
+[![obsolete JetBrains project](http://jb.gg/badges/obsolete-flat-square.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
+
+# Deprecation Warning !
+
+This sample project hasn't been updated for while and contains usage of deprecated APIs.
+
+Please use documentation provided by [sbt-idea-plugin](https://github.com/JetBrains/sbt-idea-plugin) as further reference instead.
 
 # SBT IDEA plugin usage example
 
