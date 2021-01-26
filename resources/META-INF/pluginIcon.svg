@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="81"
+   height="80"
+   viewBox="0 0 81 80"
+   version="1.1"
+   id="svg574"
+   sodipodi:docname="pluginIcon.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <metadata
+     id="metadata578">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1062"
+     id="namedview576"
+     showgrid="false"
+     inkscape:zoom="9.1375"
+     inkscape:cx="40.5"
+     inkscape:cy="40"
+     inkscape:window-x="0"
+     inkscape:window-y="18"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg574" />
+  <defs
+     id="defs552">
+    <linearGradient
+       id="pluginsdk_80-a"
+       x1="-.031%"
+       x2="100.053%"
+       y1="49.963%"
+       y2="49.963%">
+      <stop
+         offset="25.81%"
+         stop-color="#F97A12"
+         id="stop482" />
+      <stop
+         offset="45.91%"
+         stop-color="#B07B58"
+         id="stop484" />
+      <stop
+         offset="72.41%"
+         stop-color="#577BAE"
+         id="stop486" />
+      <stop
+         offset="91.05%"
+         stop-color="#1E7CE5"
+         id="stop488" />
+      <stop
+         offset="100%"
+         stop-color="#087CFA"
+         id="stop490" />
+    </linearGradient>
+    <linearGradient
+       id="pluginsdk_80-b"
+       x1="27.55%"
+       x2="82.223%"
+       y1="34.514%"
+       y2="77.605%">
+      <stop
+         offset="0%"
+         stop-color="#F97A12"
+         id="stop493" />
+      <stop
+         offset="7.18%"
+         stop-color="#CB7A3E"
+         id="stop495" />
+      <stop
+         offset="15.41%"
+         stop-color="#9E7B6A"
+         id="stop497" />
+      <stop
+         offset="24.2%"
+         stop-color="#757B91"
+         id="stop499" />
+      <stop
+         offset="33.44%"
+         stop-color="#537BB1"
+         id="stop501" />
+      <stop
+         offset="43.24%"
+         stop-color="#387CCC"
+         id="stop503" />
+      <stop
+         offset="53.81%"
+         stop-color="#237CE0"
+         id="stop505" />
+      <stop
+         offset="65.52%"
+         stop-color="#147CEF"
+         id="stop507" />
+      <stop
+         offset="79.25%"
+         stop-color="#0B7CF7"
+         id="stop509" />
+      <stop
+         offset="100%"
+         stop-color="#087CFA"
+         id="stop511" />
+    </linearGradient>
+    <linearGradient
+       id="pluginsdk_80-c"
+       x1="63.121%"
+       x2="40.793%"
+       y1="97.699%"
+       y2="-6.587%">
+      <stop
+         offset="0%"
+         stop-color="#FE315D"
+         id="stop514" />
+      <stop
+         offset="7.84%"
+         stop-color="#CB417E"
+         id="stop516" />
+      <stop
+         offset="16.01%"
+         stop-color="#9E4E9B"
+         id="stop518" />
+      <stop
+         offset="24.74%"
+         stop-color="#755BB4"
+         id="stop520" />
+      <stop
+         offset="33.92%"
+         stop-color="#5365CA"
+         id="stop522" />
+      <stop
+         offset="43.65%"
+         stop-color="#386DDB"
+         id="stop524" />
+      <stop
+         offset="54.14%"
+         stop-color="#2374E9"
+         id="stop526" />
+      <stop
+         offset="65.76%"
+         stop-color="#1478F3"
+         id="stop528" />
+      <stop
+         offset="79.4%"
+         stop-color="#0B7BF8"
+         id="stop530" />
+      <stop
+         offset="100%"
+         stop-color="#087CFA"
+         id="stop532" />
+    </linearGradient>
+    <linearGradient
+       id="pluginsdk_80-d"
+       x1="25.331%"
+       x2="93.854%"
+       y1="24.119%"
+       y2="132.621%">
+      <stop
+         offset="0%"
+         stop-color="#FE315D"
+         id="stop535" />
+      <stop
+         offset="4.023%"
+         stop-color="#F63462"
+         id="stop537" />
+      <stop
+         offset="10.37%"
+         stop-color="#DF3A71"
+         id="stop539" />
+      <stop
+         offset="16.67%"
+         stop-color="#C24383"
+         id="stop541" />
+      <stop
+         offset="29.12%"
+         stop-color="#AD4A91"
+         id="stop543" />
+      <stop
+         offset="54.98%"
+         stop-color="#755BB4"
+         id="stop545" />
+      <stop
+         offset="91.75%"
+         stop-color="#1D76ED"
+         id="stop547" />
+      <stop
+         offset="100%"
+         stop-color="#087CFA"
+         id="stop549" />
+    </linearGradient>
+  </defs>
+  <g
+     fill="none"
+     fill-rule="evenodd"
+     id="g572">
+    <g
+       fill-rule="nonzero"
+       transform="translate(8 8)"
+       id="g562">
+      <path
+         fill="url(#pluginsdk_80-a)"
+         d="M6.08754566,64 L2.66453526e-15,59.1000946 L0,26.7918961 L30,38.6703369 L10.1403967,64 L6.08754566,64 Z"
+         id="path554" />
+      <path
+         fill="url(#pluginsdk_80-b)"
+         d="M20.9524706,64 L52.2740919,31.9159091 L37.6708832,0.460194805 L38.0580944,1.33226763e-15 L64,0 L64,64 L20.9524706,64 Z"
+         id="path556" />
+      <path
+         fill="url(#pluginsdk_80-c)"
+         d="M34.4123783,0 L64,0 L64,28.0366227 L49.0078336,44 L34,0.44696173 L34.4123783,0 Z"
+         id="path558" />
+      <path
+         fill="url(#pluginsdk_80-d)"
+         d="M30.3358775,64 L0,64 L0,49.9709549 L6.23437817,29.2830519 L0,27.1596093 L0,0 L39.4697238,0 L58,21.3844805 L30.5381317,63.9259091 L30.3358775,64 Z"
+         id="path560" />
+    </g>
+    <g
+       fill-rule="nonzero"
+       transform="translate(12 12)"
+       id="g570">
+      <rect
+         width="56"
+         height="56"
+         fill="#000"
+         id="rect564" />
+      <rect
+         width="22"
+         height="4"
+         x="4"
+         y="46"
+         fill="#FFFEFE"
+         id="rect566" />
+      <path
+         fill="#FFFEFE"
+         d="M11.128,25.28 C8.584,25.28 6.016,24.392 4,22.592 L6.184,19.976 C7.696,21.224 9.28,22.016 11.2,22.016 C12.712,22.016 13.624,21.416 13.624,20.432 L13.624,20.384 C13.624,19.448 13.048,18.968 10.24,18.248 C6.856,17.384 4.672,16.448 4.672,13.112 L4.672,13.064 C4.672,10.016 7.12,8 10.552,8 C13,8 15.088,8.768 16.792,10.136 L14.872,12.92 C13.384,11.888 11.92,11.264 10.504,11.264 C9.088,11.264 8.344,11.912 8.344,12.728 L8.344,12.776 C8.344,13.88 9.064,14.24 11.968,14.984 C15.376,15.872 17.296,17.096 17.296,20.024 L17.296,20.072 C17.296,23.408 14.752,25.28 11.128,25.28 Z M19.512,25.04 L19.512,8.24 L26.064,8.24 C31.344,8.24 34.992,11.864 34.992,16.592 L34.992,16.64 C34.992,21.368 31.344,25.04 26.064,25.04 L19.512,25.04 Z M26.064,11.576 L23.208,11.576 L23.208,21.704 L26.064,21.704 C29.088,21.704 31.128,19.664 31.128,16.688 L31.128,16.64 C31.128,13.664 29.088,11.576 26.064,11.576 Z M37.28,25.04 L37.28,8.24 L40.976,8.24 L40.976,15.584 L47.744,8.24 L52.28,8.24 L45.416,15.368 L52.568,25.04 L48.128,25.04 L42.92,17.888 L40.976,19.904 L40.976,25.04 L37.28,25.04 Z"
+         id="path568" />
+    </g>
+  </g>
+  <g
+     fill="#df2621"
+     id="g472"
+     transform="matrix(0.87176624,0,0,0.87176624,52.485808,48.97934)">
+    <path
+       d="M 0,15.493333 V 23.24 C 0,22.586667 28,21.28 28,18.106667 V 10.36 C 28,13.533333 0,14.84 0,15.493333 M 0,12.88 C 0,12.226667 28,10.92 28,7.7466667 V 0 C 28,3.2666667 0,4.48 0,5.1333333 Z M 0,25.853333 V 33.6 C 0,32.946667 28,31.64 28,28.466667 V 20.72 C 28,23.893333 0,25.2 0,25.853333"
+       id="path470" />
+  </g>
+</svg>
