@@ -9,4 +9,6 @@ lazy val myAwesomeFramework =
       ThisBuild / intellijPluginName := "My Awesome Framework",
       ThisBuild / intellijBuild      := "203.7148.15",
       ThisBuild / intellijPlatform   := IntelliJPlatform.IdeaCommunity,
+      unmanagedResourceDirectories in Compile += baseDirectory.value / "resources",
+      unmanagedResourceDirectories in Test    += baseDirectory.value / "testResources",
     )
