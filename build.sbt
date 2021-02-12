@@ -10,9 +10,7 @@ lazy val myAwesomeFramework =
       ThisBuild / intellijBuild      := "203.7148.15",
       ThisBuild / intellijPlatform   := IntelliJPlatform.IdeaCommunity,
       Global    / intellijAttachSources := true,
-      Compile / javacOptions ++= "--release" :: "11" :: Nil,
-      intellijPlugins += "com.intellij.properties".toPlugin,
-      libraryDependencies += "com.eclipsesource.minimal-json" % "minimal-json" % "0.9.5" withSources(),
+      Compile   / javacOptions       ++= "--release" :: "11" :: Nil,
       unmanagedResourceDirectories in Compile += baseDirectory.value / "resources",
       unmanagedResourceDirectories in Test    += baseDirectory.value / "testResources",
     )
