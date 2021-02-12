@@ -9,6 +9,7 @@
     <idea-version since-build="203.0"/>
 
     <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.properties</depends>
 
     <resource-bundle>messages.SamplePluginBundle</resource-bundle>
 
@@ -20,10 +21,13 @@
     </actions>
 
     <applicationListeners>
+        <listener class="org.jetbrains.scala.samples.listeners.FileOpenedListener" topic="com.intellij.openapi.fileEditor.FileEditorManagerListener"/>
     </applicationListeners>
 
     <extensions defaultExtensionNs="com.intellij">
-        <!-- TODO put your extensions here -->
+        <notificationGroup displayType="BALLOON" id="My Plugin Notification" />
+        <toolWindow factoryClass="org.jetbrains.scala.samples.ui.MyToolWindowFactory" id="MyToolWindow" anchor="bottom"/>
+        <completion.contributor implementationClass="org.jetbrains.scala.samples.completion.SimpleCompletionContributor" language="Properties"/>
     </extensions>
 
 </idea-plugin>
