@@ -9,6 +9,9 @@ lazy val myAwesomeFramework =
       ThisBuild / intellijPluginName := "My Awesome Framework",
       ThisBuild / intellijBuild      := "203.7148.15",
       ThisBuild / intellijPlatform   := IntelliJPlatform.IdeaCommunity,
+      Global    / intellijAttachSources := true,
+      intellijPlugins += "com.intellij.properties".toPlugin,
+      libraryDependencies += "com.eclipsesource.minimal-json" % "minimal-json" % "0.9.5" withSources(),
       unmanagedResourceDirectories in Compile += baseDirectory.value / "resources",
       unmanagedResourceDirectories in Test    += baseDirectory.value / "testResources",
     )

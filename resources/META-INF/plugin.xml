@@ -6,40 +6,24 @@
 
     <description>A new plugin for IntelliJ platform written in Scala and built with SBT</description>
 
-    <idea-version since-build="203.*"/>
+    <idea-version since-build="203.0"/>
 
     <depends>com.intellij.modules.platform</depends>
 
+    <resource-bundle>messages.SamplePluginBundle</resource-bundle>
+
     <actions>
-    <!--
-      See https://plugins.jetbrains.com/docs/intellij/basic-action-system.html#registering-actions
-      for information about the elements and attributes used for actions and groups.
-      This <action> element adds a static menu item in first position of the Tools menu that shows PopupDialogAction.
-      Note this element has no text or description attributes because translations for them are given
-      by action-id in the resource-bundle.
-      An <override-text> element is also used for demonstration purposes to show alternate text and description strings
-      for this action's entries in the MainMenu. (Which includes the ToolsMenu. Try commenting out the override-text
-      element and see how the menu text changes.) The alternate text and description attributes do not
-      appear here because they are defined by action-id in the resource-bundle.
-    -->
-    <action id="org.jetbrains.scala.samples.actions.PopupDialogAction" class="org.jetbrains.scala.samples.actions.PopupDialogAction"
-            text="Action Basics Plugin: Pop Dialog Action" description="SDK action example">
-        <add-to-group group-id="ToolsMenu" anchor="first"/>
-        <override-text place="MainMenu" text="Pop Dialog Action"/>
-        <keyboard-shortcut first-keystroke="control alt A" second-keystroke="C" keymap="$default"/>
-        <mouse-shortcut keystroke="control button3 doubleClick" keymap="$default"/>
-    </action>
+        <action id="org.jetbrains.scala.samples.actions.PopupDialogAction"
+                class="org.jetbrains.scala.samples.actions.PopupDialogAction">
+            <add-to-group group-id="ToolsMenu" anchor="first"/>
+        </action>
     </actions>
 
-    <application-components>
-        <!-- TODO put your components here -->
-    </application-components>
-
-    <project-components>
-        <!-- TODO put your components here -->
-    </project-components>
+    <applicationListeners>
+    </applicationListeners>
 
     <extensions defaultExtensionNs="com.intellij">
         <!-- TODO put your extensions here -->
     </extensions>
+
 </idea-plugin>

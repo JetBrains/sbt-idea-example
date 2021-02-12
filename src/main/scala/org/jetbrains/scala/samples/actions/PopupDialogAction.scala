@@ -9,6 +9,7 @@ import com.intellij.openapi.ui.Messages
 import com.intellij.pom.Navigatable
 import org.jetbrains.annotations.{Nls, NotNull, Nullable}
 import org.jetbrains.scala.samples.SamplePluginBundle
+import org.jetbrains.scala.samples.services.{ApplicationHelloService, ProjectHelloService}
 
 import javax.swing._
 
@@ -16,18 +17,25 @@ class PopupDialogAction extends AnAction() {
 
   /**
    * Gives the user feedback when the dynamic action menu is chosen.
-   * Pops a simple message dialog. See the psi_demo plugin for an
-   * example of how to use {@link AnActionEvent} to access data.
-   *
+   * Pops a simple message dialog.
    * @param event Event received when the associated menu item is chosen.
    */
   override def actionPerformed(event: AnActionEvent): Unit = { // Using the event, create and show a dialog
     val currentProject = event.getProject
     val dlgMsg = new StringBuilder(SamplePluginBundle.message("gettext.selected", event.getPresentation.getText))
     val dlgTitle = event.getPresentation.getDescription
+
     // If an element is selected in the editor, add info about it.
     val nav = event.getData(CommonDataKeys.NAVIGATABLE)
-    if (nav != null) dlgMsg.append(SamplePluginBundle.message("selected.element.tostring", nav.toString))
+    if (nav != null)
+      dlgMsg.append(SamplePluginBundle.message("selected.element.tostring", nav.toString) + '\n')
+
+    val appHelloMessage = ApplicationHelloService.getInstance.getApplicationHelloInfo
+    dlgMsg.append(appHelloMessage + '\n')
+
+    val projectMessage = ProjectHelloService.getInstance(currentProject).getProjectHelloInfo
+    dlgMsg.append(projectMessage + '\n')
+
     Messages.showMessageDialog(currentProject, dlgMsg.toString, dlgTitle, Messages.getInformationIcon)
   }
 
