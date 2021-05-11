@@ -22,7 +22,7 @@ class PopupDialogAction extends AnAction() {
    */
   override def actionPerformed(event: AnActionEvent): Unit = { // Using the event, create and show a dialog
     val currentProject = event.getProject
-    val dlgMsg = new StringBuilder(SamplePluginBundle.message("gettext.selected", event.getPresentation.getText))
+    val dlgMsg = new StringBuilder(SamplePluginBundle.message("gettext.selected", event.getPresentation.getText) + '\n')
     val dlgTitle = event.getPresentation.getDescription
 
     // If an element is selected in the editor, add info about it.
