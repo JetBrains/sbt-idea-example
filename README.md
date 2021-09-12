@@ -1,11 +1,10 @@
-# Sample IntelliJ platorm plugin written in Scala
+# Sample IntelliJ platform plugin written in Scala
 
 This is an example IJ plugin written in Scala and managed by SBT.
 
-Apart from basic IJ plugin structure this project also provides some example code to play with and demonstrate some
-of the IntelliJ platform API features.
+Apart from basic IJ plugin structure this project also provides some example code to play with and demonstrate some IntelliJ platform API features.
 
-Extended documentation on the build features such as packaging the artifact, uploading to plugin marketpalce, etc. is covered by
+Extended documentation on the build features such as packaging the artifact, uploading to plugin marketplace, etc. is covered by
 the [sbt-idea-plugin](https://github.com/JetBrains/sbt-idea-plugin) readme
 
 ## Quick Start
@@ -29,4 +28,4 @@ the [sbt-idea-plugin](https://github.com/JetBrains/sbt-idea-plugin) readme
 - `SimpleCompletionContributor` adds the "HELLO" completion item to the values of the properties files
 - `FileOpenedListener` shows a popup when a file is opened in the editor
 - `ApplicationHelloService` and `ProjectHelloService` show examples of IJ platform service components
-- `MyToolWindowFactory` creates a new toolwindow at the bottom of the window
+- `MyToolWindowFactory` creates a new ToolWindow at the bottom of the window
