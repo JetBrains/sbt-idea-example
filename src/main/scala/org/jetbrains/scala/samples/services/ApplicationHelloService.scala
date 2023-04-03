@@ -2,8 +2,8 @@
 
 package org.jetbrains.scala.samples.services
 
-import com.intellij.openapi.application.ApplicationInfo
-import com.intellij.openapi.components.{Service, ServiceManager}
+import com.intellij.openapi.application.{ApplicationInfo, ApplicationManager}
+import com.intellij.openapi.components.Service
 import org.jetbrains.scala.samples.SamplePluginBundle
 
 @Service
@@ -13,5 +13,5 @@ final class ApplicationHelloService {
 }
 
 object ApplicationHelloService {
-  def getInstance: ApplicationHelloService = ServiceManager.getService(classOf[ApplicationHelloService])
+  def getInstance: ApplicationHelloService = ApplicationManager.getApplication().getService(classOf[ApplicationHelloService])
 }
