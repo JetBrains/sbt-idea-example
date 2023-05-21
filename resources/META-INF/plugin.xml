@@ -6,7 +6,7 @@
 
     <description>A new plugin for IntelliJ platform written in Scala and built with SBT</description>
 
-    <idea-version since-build="203.0"/>
+    <idea-version since-build="231.0"/>
 
     <depends>com.intellij.modules.platform</depends>
     <depends>com.intellij.properties</depends>
