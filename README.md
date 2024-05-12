@@ -16,17 +16,26 @@ the [sbt-idea-plugin](https://github.com/JetBrains/sbt-idea-plugin) readme.
 
 ## Quick Start
 
-- Open the `build.sbt` file in IntelliJ IDEA as a project
-- To run your plugin, run or debug the `myAwesomeFramework` run configuration
+### Work with sbt in the command line
+
+- Test the plugin in IntelliJ IDEA: `sbt runIDE`
+- Package the plugin: `sbt packageArtifactZip`
+
+### Work with GitHub Actions
+
+- Push or Pull Request will trigger the GitHub Actions workflow that will build and test the plugin.
+- Push a tag (such as `v1.2.3`) to trigger the GitHub Actions workflow that will build and publish the plugin to the GitHub release page. (You may need to set a GitHub token first.)
+
+### Work with IntelliJ IDEA
+
+- Open the `build.sbt` file in IntelliJ IDEA as a project.
+- To run your plugin, run or debug the `myAwesomeFramework` run configuration.
 
 ## Example build features
 
 - `intellijBuild` key in build.sbt contains version of the dependency on IDEA, you can change it.
-
-- `intellijPlugins` key in build.sbt contains a dependency on the "Properties" IJ plugin
-
-- there's an external library dependency that will be packaged into your plugin distribution
-
+- `intellijPlugins` key in build.sbt contains a dependency on the "Properties" IJ plugin.
+- there's an external library dependency that will be packaged into your plugin distribution.
 - Don't forget to replace the plugin name in build.sbt. You also need to change name in resources/META-INF/plugin.xml.
 
 ## Example plugin components
