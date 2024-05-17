@@ -1,5 +1,25 @@
 import org.jetbrains.sbtidea.Keys.*
 
+import sbt.*
+
+def readmeDescriptionExtract(readmeFile: File): String = {
+  val readmeContent = IO.read(readmeFile)
+
+  val startMarker = "<!-- Plugin description -->"
+  val endMarker = "<!-- Plugin description end -->"
+  val startIndex = readmeContent.indexOf(startMarker)
+  val endIndex = readmeContent.indexOf(endMarker)
+
+  if (startIndex == -1 || endIndex == -1) {
+    throw new Exception("Plugin description section not found in README.md")
+  }
+
+  val readmeDescriptionMd = readmeContent.substring(startIndex + startMarker.length, endIndex).trim
+  val readmeDescriptionHtml = org.jetbrains.changelog.ExtensionsKt.markdownToHTML(readmeDescriptionMd, "\\n")
+
+  xml.Utility.escape(readmeDescriptionHtml)
+}
+
 lazy val myAwesomeFramework =
   project.in(file("."))
     .enablePlugins(SbtIdeaPlugin)
@@ -18,6 +38,7 @@ lazy val myAwesomeFramework =
 
       patchPluginXml := pluginXmlOptions { xml =>
         xml.version = version.value
-        xml.pluginDescription = Utils.readmeDescriptionExtract(file(".") / "README.md")
+        xml.sinceBuild = (ThisBuild / intellijBuild).value
+        xml.pluginDescription = readmeDescriptionExtract(file(".") / "README.md")
       }
     )
